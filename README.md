@@ -1,4 +1,4 @@
-# ARNIQA
+# ARNIQA (WACV 2024)
 
 ### Learning Distortion Manifold for Image Quality Assessment
 
