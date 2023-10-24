@@ -2,7 +2,10 @@
 
 ### Learning Distortion Manifold for Image Quality Assessment
 
-This is the **official repository** of the [**paper**]() "*ARNIQA: Learning Distortion Manifold for Image Quality Assessment*".
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2310.14918)
+[![GitHub Stars](https://img.shields.io/github/stars/miccunifi/ARNIQA?style=social)](https://github.com/miccunifi/ARNIQA)
+
+This is the **official repository** of the [**paper**](https://arxiv.org/abs/2310.14918) "*ARNIQA: Learning Distortion Manifold for Image Quality Assessment*".
 
 ## Overview
 
@@ -19,7 +22,14 @@ Comparison between our approach and the State of the Art for NR-IQA. While the S
 ## Citation
 
 ```bibtex
-
+ @misc{agnolucci2023arniqa,
+      title={ARNIQA: Learning Distortion Manifold for Image Quality Assessment}, 
+      author={Lorenzo Agnolucci and Leonardo Galteri and Marco Bertini and Alberto Del Bimbo},
+      year={2023},
+      eprint={2310.14918},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
 
 ## TO-DO:
