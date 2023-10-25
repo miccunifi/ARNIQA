@@ -36,6 +36,7 @@ Comparison between our approach and the State of the Art for NR-IQA. While the S
 - [ ] Pre-trained models and regressors
 - [ ] Testing code
 - [ ] Training code
+- [ ] Python package
 
 
 ## Authors
