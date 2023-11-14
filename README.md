@@ -5,8 +5,9 @@
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2310.14918)
 [![GitHub Stars](https://img.shields.io/github/stars/miccunifi/ARNIQA?style=social)](https://github.com/miccunifi/ARNIQA)
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/arniqa-learning-distortion-manifold-for-image/no-reference-image-quality-assessment-on)](https://paperswithcode.com/sota/no-reference-image-quality-assessment-on?p=arniqa-learning-distortion-manifold-for-image)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/arniqa-learning-distortion-manifold-for-image/no-reference-image-quality-assessment-on-1)](https://paperswithcode.com/sota/no-reference-image-quality-assessment-on-1?p=arniqa-learning-distortion-manifold-for-image)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/arniqa-learning-distortion-manifold-for-image/no-reference-image-quality-assessment-on)](https://paperswithcode.com/sota/no-reference-image-quality-assessment-on?p=arniqa-learning-distortion-manifold-for-image)  
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/arniqa-learning-distortion-manifold-for-image/no-reference-image-quality-assessment-on-1)](https://paperswithcode.com/sota/no-reference-image-quality-assessment-on-1?p=arniqa-learning-distortion-manifold-for-image)  
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/arniqa-learning-distortion-manifold-for-image/no-reference-image-quality-assessment-on-csiq)](https://paperswithcode.com/sota/no-reference-image-quality-assessment-on-csiq?p=arniqa-learning-distortion-manifold-for-image)
 
 This is the **official repository** of the [**paper**](https://arxiv.org/abs/2310.14918) "*ARNIQA: Learning Distortion Manifold for Image Quality Assessment*".
 
