@@ -1,4 +1,4 @@
-# ARNIQA (WACV 2024)
+# ARNIQA (WACV 2024 Oral)
 
 ### Learning Distortion Manifold for Image Quality Assessment
 
