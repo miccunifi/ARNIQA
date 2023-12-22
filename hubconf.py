@@ -43,10 +43,10 @@ class ARNIQA(nn.Module):
         assert regressor_dataset in available_datasets, f"parameter training_dataset must be in {available_datasets}"
         self.regressor_dataset = regressor_dataset
         self.model = ResNet(embedding_dim=128, pretrained=True, use_norm=True)
-        self.model.load_state_dict(torch.hub.load_state_dict_from_url(base_url / "ARNIQA.pth", progress=True,
+        self.model.load_state_dict(torch.hub.load_state_dict_from_url(f"{base_url}/ARNIQA.pth", progress=True,
                                                                       map_location="cpu"))
         self.model.eval()
-        self.regressor = torch.jit.load(torch.hub.load_state_dict_from_url(base_url / f"regressor_{regressor_dataset}.pth",
+        self.regressor = torch.jit.load(torch.hub.load_state_dict_from_url(f"{base_url}/regressor_{regressor_dataset}.pth",
                                                                            progress=True, map_location="cpu"))
         self.regressor.eval()
 
