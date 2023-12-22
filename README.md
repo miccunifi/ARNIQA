@@ -88,6 +88,8 @@ print(f"Image quality score: {score.item()}")
 <summary><h3>Getting Started</h3></summary>
 
 #### Installation
+We recommend using the [**Anaconda**](https://www.anaconda.com/) package manager to avoid dependency/reproducibility
+problems. For Linux systems, you can find a conda installation guide [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html).
 
 1. Clone the repository
 
