@@ -62,7 +62,7 @@ test:
   batch_size: 16    # batch size
   num_workers: 20   # number of workers for data loading
   num_splits: 10   # number of splits to consider for each dataset
-  grid_search: false   # if True, grid search on the validation splits is used to find the best alpha value for the regression
+  grid_search: true   # if True, grid search on the validation splits is used to find the best alpha value for the regression
   alpha: 0.1  # alpha value for the regression when grid search is not used
   crop_size: 224  # crop size for inference
   datasets:  # datasets to use for test
