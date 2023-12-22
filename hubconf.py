@@ -26,7 +26,7 @@ available_datasets_mos_types = {
     "spaq": "mos"
 }
 
-base_url = "https://github.com/miccunifi/ARNIQA/releases/download/weights/"
+base_url = "https://github.com/miccunifi/ARNIQA/releases/download/weights"
 
 
 class ARNIQA(nn.Module):
