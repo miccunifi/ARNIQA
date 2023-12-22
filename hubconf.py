@@ -1,6 +1,9 @@
 import torch
 import torch.nn as nn
 from typing import Tuple
+# Avoid warning related to loading a jit model from torch.hub
+import warnings
+warnings.filterwarnings("ignore", category=UserWarning, module="torch.serialization")
 
 from models.resnet import ResNet
 
@@ -46,8 +49,8 @@ class ARNIQA(nn.Module):
         self.model.load_state_dict(torch.hub.load_state_dict_from_url(f"{base_url}/ARNIQA.pth", progress=True,
                                                                       map_location="cpu"))
         self.model.eval()
-        self.regressor = torch.jit.load(torch.hub.load_state_dict_from_url(f"{base_url}/regressor_{regressor_dataset}.pth",
-                                                                           progress=True, map_location="cpu"))
+        self.regressor: nn.Module = torch.hub.load_state_dict_from_url(f"{base_url}/regressor_{regressor_dataset}.pth",
+                                                                        progress=True, map_location="cpu")
         self.regressor.eval()
 
     def forward(self, img, img_ds, return_embedding: bool = False, scale_score: bool = True):
