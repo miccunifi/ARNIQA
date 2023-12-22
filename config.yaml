@@ -1,0 +1,92 @@
+# General settings
+experiment_name: ""   # name of the experiment
+device: 0   # -1 for CPU, otherwise GPU id
+seed: 27  # random seed
+data_base_path: ""    # path to the base directory containing the datasets
+
+
+# Training
+training:
+  epochs: 10    # number of epochs
+  lr: !!float 1e-3    # learning rate
+  batch_size: 16     # batch size
+  num_workers: 20   # number of workers for data loading
+  log_images_frequency: 1000  # log input images every n batches
+  resume_training: false    # resume training and logging of the experiment with the same name
+
+  data:
+    patch_size: 224   # patch size for training
+    max_distortions: 4  # maximum number of distortions to apply. Must be in the range [0, 7]
+    num_levels: 5   # number of distortion levels to consider. Must be in the range [1, 5]
+    pristine_prob: 0.05   # probability of not distorting images during training
+
+  optimizer:
+    name: SGD   # optimizer name
+    momentum: 0.9   # momentum
+    weight_decay: !!float 1e-4    # weight decay
+
+  lr_scheduler:
+    name: CosineAnnealingWarmRestarts   # learning rate scheduler name
+    T_0: 1    # T_0 for CosineAnnealingWarmRestarts
+    T_mult: 2   # T_mult for CosineAnnealingWarmRestarts
+    eta_min: !!float 1e-6   # eta_min for CosineAnnealingWarmRestarts
+
+
+# Validation
+validation:
+  frequency: 1    # validate every frequency epochs
+  num_splits: 10   # number of splits to consider for each dataset
+  alpha: 0.1  # alpha value for the regression
+  visualize: true   # visualize embeddings with t-SNE for KADID10K dataset
+  visualization:
+    tsne:
+      n_components: 3   # number of components for t-SNE
+      perplexity: 30    # perplexity for t-SNE
+      n_iter: 1000    # number of iterations for t-SNE
+    umap:
+      n_components: 3   # number of components for UMAP
+      n_neighbors: 25   # number of neighbors for UMAP
+      min_dist: 0.2   # min_dist for UMAP
+      metric: euclidean   # metric for UMAP
+  datasets:  # datasets to use for validation
+    - live
+    - csiq
+    - tid2013
+    - kadid10k
+    - flive
+    - spaq
+
+
+# Test
+test:
+  batch_size: 16    # batch size
+  num_workers: 20   # number of workers for data loading
+  num_splits: 10   # number of splits to consider for each dataset
+  grid_search: false   # if True, grid search on the validation splits is used to find the best alpha value for the regression
+  alpha: 0.1  # alpha value for the regression when grid search is not used
+  crop_size: 224  # crop size for inference
+  datasets:  # datasets to use for test
+    - live
+    - csiq
+    - tid2013
+    - kadid10k
+    - flive
+    - spaq
+
+
+# Model
+model:
+  temperature: 0.1    # temperature for the NT-Xent loss
+  encoder:    # encoder parameters
+    embedding_dim: 128    # embedding dimension
+    pretrained: true    # if True, use ImageNet pretrained weights
+    use_norm: true    # if True, normalize the embeddings
+
+
+# Logging
+logging:
+  use_wandb: true   # if True, use wandb for logging
+  wandb:
+    online: true    # if True, log online to wandb
+    project: ""   # wandb project name
+    entity: ""    # wandb entity name
