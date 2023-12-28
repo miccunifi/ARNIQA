@@ -10,7 +10,7 @@ from openpyxl.styles import Alignment
 import pickle
 from PIL import Image
 from pathlib import Path
-from typing import List
+from typing import List, Tuple
 from datetime import datetime
 from einops import rearrange
 from sklearn.linear_model import Ridge
@@ -170,7 +170,7 @@ def get_results(model: nn.Module,
                 batch_size: int,
                 num_workers: int,
                 device: torch.device,
-                eval_type: str = "scratch") -> (dict, dict, dict, dict, dict):
+                eval_type: str = "scratch") -> Tuple[dict, dict, dict, dict, dict]:
     """
     Get the results for the given model and datasets. Depending on the phase parameter, can be used both for validation
     and test. If phase == 'test' and grid_search == True, performs a grid search over the validation splits to find the best
@@ -260,7 +260,7 @@ def compute_metrics(model: nn.Module,
                     batch_size: int,
                     num_workers: int,
                     device: torch.device,
-                    eval_type: str = "scratch") -> (dict, dict, Ridge, float, dict):
+                    eval_type: str = "scratch") -> Tuple[dict, dict, Ridge, float, dict]:
     """
     Compute the metrics for the given model and dataset. If phase == 'test' and grid_search == True, performs a grid search
     over the validation splits to find the best alpha value for the regression.
@@ -355,7 +355,7 @@ def compute_metrics(model: nn.Module,
 def get_features_scores(model: nn.Module,
                         dataloader: DataLoader,
                         device: torch.device,
-                        eval_type: str = "scratch") -> (np.ndarray, np.ndarray):
+                        eval_type: str = "scratch") -> Tuple[np.ndarray, np.ndarray]:
     """
     Get the features and scores for the given model and dataloader.
 
