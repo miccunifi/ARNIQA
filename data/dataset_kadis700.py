@@ -15,7 +15,7 @@ class KADIS700Dataset(Dataset):
     KADIS700 dataset class used for pre-training the encoders for IQA.
 
     Args:
-        dataroot (string): root directory of the dataset
+        root (string): root directory of the dataset
         patch_size (int): size of the patches to extract from the images
         max_distortions (int): maximum number of distortions to apply to the images
         num_levels (int): number of levels of distortion to apply to the images
