@@ -29,8 +29,8 @@ class KADIS700Dataset(Dataset):
             img_B_ds (Tensor): downsampled version of the second view of the image pair (scale factor 2)
             img_A_name (string): name of the image of the first view of the image pair
             img_B_name (string): name of the image of the second view of the image pair
-            distort_functions (list): list of the names of the distortion functions applied to the images
-            distort_values (list): list of the values of the distortion functions applied to the images
+            distortion_functions (list): list of the names of the distortion functions applied to the images
+            distortion_values (list): list of the values of the distortion functions applied to the images
     """
     def __init__(self,
                  root: str,
