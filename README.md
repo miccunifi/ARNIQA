@@ -189,6 +189,28 @@ python single_image_inference.py --img_path assets/01.png --regressor_dataset ka
 
 <details>
 <summary><h3>Training</h3></summary>
+  
+Before training, you need to download the pristine images belonging to the KADIS700 dataset. Download the ```.zip``` file from [here](http://database.mmsp-kn.de/kadid-10k-database.html) and unzip it. At the end, the directory structure should look like this:
+
+```
+├── data_base_path
+|
+|    ├── KADIS700
+|    |   ├── ref_imgs
+|        
+|    ├── LIVE
+|        
+|    ├── CSIQ
+|        
+|    ├── TID2013
+|        
+|    ├── KADID10K
+|        
+|    ├── FLIVE
+|        
+|    ├── SPAQ
+```
+
 To train our model from scratch, run the following command:
 
 ```python
