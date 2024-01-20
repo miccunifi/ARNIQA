@@ -41,8 +41,7 @@ Comparison between our approach and the State of the Art for NR-IQA. While the S
 ## Usage
 
 ### Minimal Working Example
-Thanks to [torch.hub](https://pytorch.org/docs/stable/hub.html), you can use our model for inference without the need of
-cloning our repo or installing any specific dependencies.
+Thanks to [torch.hub](https://pytorch.org/docs/stable/hub.html), you can use our model for inference without the need to clone our repo or install any specific dependencies. By default, ARNIQA computes a quality score in the range [0, 1], where higher is better.
 
 ```python
 import torch
@@ -184,6 +183,7 @@ python single_image_inference.py --img_path assets/01.png --regressor_dataset ka
 --regressor_dataset         Dataset used to train the regressor. Options: ["live",
                             "csiq", "tid2013", "kadid10k", "flive", "spaq"]
 ```
+By default, ARNIQA computes a quality score in the range [0, 1], where higher is better.
 
 </details>
 
