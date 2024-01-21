@@ -3,6 +3,9 @@
 ### Learning Distortion Manifold for Image Quality Assessment
 
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2310.14918)
+[![Generic badge](https://img.shields.io/badge/Video-YouTube-red.svg)](https://youtu.be/UUwpoi61jpg)
+[![Generic badge](https://img.shields.io/badge/Slides-Link-orange.svg)](/assets/Slides.pptx)
+[![Generic badge](https://img.shields.io/badge/Poster-Link-purple.svg)](/assets/Poster.pdf)
 [![GitHub Stars](https://img.shields.io/github/stars/miccunifi/ARNIQA?style=social)](https://github.com/miccunifi/ARNIQA)
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/arniqa-learning-distortion-manifold-for-image/no-reference-image-quality-assessment-on)](https://paperswithcode.com/sota/no-reference-image-quality-assessment-on?p=arniqa-learning-distortion-manifold-for-image)  
