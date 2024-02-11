@@ -31,13 +31,12 @@ Comparison between our approach and the State of the Art for NR-IQA. While the S
 ## Citation
 
 ```bibtex
- @misc{agnolucci2023arniqa,
-      title={ARNIQA: Learning Distortion Manifold for Image Quality Assessment}, 
-      author={Lorenzo Agnolucci and Leonardo Galteri and Marco Bertini and Alberto Del Bimbo},
-      year={2023},
-      eprint={2310.14918},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@inproceedings{agnolucci2024arniqa,
+  title={ARNIQA: Learning Distortion Manifold for Image Quality Assessment},
+  author={Agnolucci, Lorenzo and Galteri, Leonardo and Bertini, Marco and Del Bimbo, Alberto},
+  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
+  pages={189--198},
+  year={2024}
 }
 ```
 
