@@ -12,9 +12,12 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/arniqa-learning-distortion-manifold-for-image/no-reference-image-quality-assessment-on-1)](https://paperswithcode.com/sota/no-reference-image-quality-assessment-on-1?p=arniqa-learning-distortion-manifold-for-image)  
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/arniqa-learning-distortion-manifold-for-image/no-reference-image-quality-assessment-on-csiq)](https://paperswithcode.com/sota/no-reference-image-quality-assessment-on-csiq?p=arniqa-learning-distortion-manifold-for-image)
 
-**🔥🔥🔥 [22/12/2023] The pre-trained model and the code for training and testing are now available**
+**🔥🔥🔥 [2023/12/22] The pre-trained model and the code for training and testing are now available**
 
 This is the **official repository** of the [**paper**](https://arxiv.org/abs/2310.14918) "*ARNIQA: Learning Distortion Manifold for Image Quality Assessment*".
+
+> [!NOTE] 
+> If you are interested in IQA, take a look at our [latest work](https://github.com/miccunifi/QualiCLIP) on CLIP-based opinion-unaware NR-IQA
 
 ## Overview
 
