@@ -12,7 +12,7 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/arniqa-learning-distortion-manifold-for-image/no-reference-image-quality-assessment-on-1)](https://paperswithcode.com/sota/no-reference-image-quality-assessment-on-1?p=arniqa-learning-distortion-manifold-for-image)  
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/arniqa-learning-distortion-manifold-for-image/no-reference-image-quality-assessment-on-csiq)](https://paperswithcode.com/sota/no-reference-image-quality-assessment-on-csiq?p=arniqa-learning-distortion-manifold-for-image)
 
-**🔥🔥🔥 [2023/12/22] The pre-trained model and the code for training and testing are now available**
+**🔥🔥🔥 [2024/06/06] The pre-trained regressors for the CLIVE and KonIQ10K datasets are now available**
 
 This is the **official repository** of the [**paper**](https://arxiv.org/abs/2310.14918) "*ARNIQA: Learning Distortion Manifold for Image Quality Assessment*".
 
@@ -186,7 +186,7 @@ python single_image_inference.py --img_path assets/01.png --regressor_dataset ka
 ```
 --img_path                  Path to the image to be evaluated
 --regressor_dataset         Dataset used to train the regressor. Options: ["live",
-                            "csiq", "tid2013", "kadid10k", "flive", "spaq"]
+                            "csiq", "tid2013", "kadid10k", "flive", "spaq", "clive", "koniq10k"]
 ```
 By default, ARNIQA computes a quality score in the range [0, 1], where higher is better.
 

@@ -10,7 +10,7 @@ if __name__ == '__main__':
     parser = ArgumentParser()
     parser.add_argument("--img_path", type=str, required=True, help="Path to the image to be evaluated")
     parser.add_argument("--regressor_dataset", type=str, default="kadid10k", choices=["live", "csiq",
-                                     "tid2013", "kadid10k", "flive", "spaq"], help="Dataset used to train the regressor")
+                                     "tid2013", "kadid10k", "flive", "spaq", "clive", "koniq10k"], help="Dataset used to train the regressor")
     args = parser.parse_args()
 
     device = torch.device("cuda") if torch.cuda.is_available() else "cpu"

@@ -9,7 +9,7 @@ from models.resnet import ResNet
 
 dependencies = ["torch"]
 
-available_datasets = ["live", "csiq", "tid2013", "kadid10k", "flive", "spaq"]
+available_datasets = ["live", "csiq", "tid2013", "kadid10k", "flive", "spaq", "clive", "koniq10k"]
 
 available_datasets_ranges = {
     "live": (1, 100),
@@ -17,7 +17,9 @@ available_datasets_ranges = {
     "tid2013": (0, 9),
     "kadid10k": (1, 5),
     "flive": (1, 100),
-    "spaq": (1, 100)
+    "spaq": (1, 100),
+    "clive": (1, 100),
+    "koniq10k": (1, 100),
 }
 
 available_datasets_mos_types = {
@@ -26,7 +28,9 @@ available_datasets_mos_types = {
     "tid2013": "mos",
     "kadid10k": "mos",
     "flive": "mos",
-    "spaq": "mos"
+    "spaq": "mos",
+    "clive": "mos",
+    "koniq10k": "mos",
 }
 
 base_url = "https://github.com/miccunifi/ARNIQA/releases/download/weights"
