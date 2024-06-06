@@ -12,7 +12,7 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/arniqa-learning-distortion-manifold-for-image/no-reference-image-quality-assessment-on-1)](https://paperswithcode.com/sota/no-reference-image-quality-assessment-on-1?p=arniqa-learning-distortion-manifold-for-image)  
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/arniqa-learning-distortion-manifold-for-image/no-reference-image-quality-assessment-on-csiq)](https://paperswithcode.com/sota/no-reference-image-quality-assessment-on-csiq?p=arniqa-learning-distortion-manifold-for-image)
 
-**🔥🔥🔥 [2024/06/06] The pre-trained regressors for the CLIVE and KonIQ10K datasets are now available**
+**🔥🔥🔥 [2024/06/06] ARNIQA is now included in the [IQA-PyTorch](https://github.com/chaofengc/IQA-PyTorch) ![GitHub Stars](https://img.shields.io/github/stars/chaofengc/IQA-PyTorch?style=social) toolbox**
 
 This is the **official repository** of the [**paper**](https://arxiv.org/abs/2310.14918) "*ARNIQA: Learning Distortion Manifold for Image Quality Assessment*".
 
@@ -44,6 +44,9 @@ Comparison between our approach and the State of the Art for NR-IQA. While the S
 ```
 
 ## Usage
+
+> [!NOTE] 
+> If you want to employ ARNIQA just for inference, you can also use it through the [IQA-PyTorch](https://github.com/chaofengc/IQA-PyTorch) ![GitHub Stars](https://img.shields.io/github/stars/chaofengc/IQA-PyTorch?style=social) toolbox
 
 ### Minimal Working Example
 Thanks to [torch.hub](https://pytorch.org/docs/stable/hub.html), you can use our model for inference without the need to clone our repo or install any specific dependencies. By default, ARNIQA computes a quality score in the range [0, 1], where higher is better.
