@@ -17,7 +17,7 @@
 This is the **official repository** of the [**paper**](https://arxiv.org/abs/2310.14918) "*ARNIQA: Learning Distortion Manifold for Image Quality Assessment*".
 
 > [!NOTE] 
-> If you are interested in IQA, take a look at our [latest work](https://github.com/miccunifi/QualiCLIP) on CLIP-based opinion-unaware NR-IQA
+> If you are interested in IQA, take a look at our [new dataset](https://arxiv.org/abs/2406.17472) with UHD images and our [latest work](https://github.com/miccunifi/QualiCLIP) on CLIP-based opinion-unaware NR-IQA
 
 ## Overview
 
