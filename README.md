@@ -13,6 +13,7 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/arniqa-learning-distortion-manifold-for-image/no-reference-image-quality-assessment-on-1)](https://paperswithcode.com/sota/no-reference-image-quality-assessment-on-1?p=arniqa-learning-distortion-manifold-for-image)  
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/arniqa-learning-distortion-manifold-for-image/no-reference-image-quality-assessment-on-csiq)](https://paperswithcode.com/sota/no-reference-image-quality-assessment-on-csiq?p=arniqa-learning-distortion-manifold-for-image)
 
+**🔥🔥🔥 [2025/02/26] ARNIQA is now included in the [torchmetrics](https://github.com/Lightning-AI/torchmetrics) ![GitHub Stars](https://img.shields.io/github/stars/Lightning-AI/torchmetrics?style=social) library** <br />
 **🔥🔥🔥 [2024/06/06] ARNIQA is now included in the [IQA-PyTorch](https://github.com/chaofengc/IQA-PyTorch) ![GitHub Stars](https://img.shields.io/github/stars/chaofengc/IQA-PyTorch?style=social) toolbox**
 
 This is the **official repository** of the [**paper**](https://arxiv.org/abs/2310.14918) "*ARNIQA: Learning Distortion Manifold for Image Quality Assessment*".
