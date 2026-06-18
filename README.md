@@ -114,9 +114,9 @@ chmod +x install_requirements.sh
 #### Data Preparation
 You need to download the datasets and place them under the same directory ```data_base_path```.
 
-1. [**LIVE**]: Download the Release 2 folder from [here](https://live.ece.utexas.edu/research/Quality/subjective.htm) and the annotations from [here](https://github.com/icbcbicc/IQA-Dataset/blob/master/csv/LIVE.txt) (corresponding to the [realigned subjective quality data](https://live.ece.utexas.edu/research/Quality/subjective.htm))
+1. [**LIVE**]: Download the Release 2 folder from [here](https://live.ece.utexas.edu/research/Quality/subjective.htm) and the annotations from [here](https://github.com/icbcbicc/IQA-Dataset/blob/master/iqadataset/csv/LIVE.txt) (corresponding to the [realigned subjective quality data](https://live.ece.utexas.edu/research/Quality/subjective.htm))
 2. [**CSIQ**]: Create a folder containing the source and distorted images from [here](https://s2.smu.edu/~eclarson/csiq.html)
-and the annotations from [here](https://github.com/icbcbicc/IQA-Dataset/blob/master/csv/CSIQ.txt).
+and the annotations from [here](https://github.com/icbcbicc/IQA-Dataset/blob/master/iqadataset/csv/CSIQ.txt).
 3. [**TID2013**](https://www.ponomarenko.info/tid2013.htm)
 4. [**KADID10K**](http://database.mmsp-kn.de/kadid-10k-database.html)
 5. [**FLIVE**](https://baidut.github.io/PaQ-2-PiQ/#download-zone)
